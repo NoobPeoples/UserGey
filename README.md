@@ -97,7 +97,7 @@ async def testing(message: Message):
 
   > Finally turn on the app and check the logs (settings -> view logs) :)
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/X-Newbie/X-Userge/tree/master"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+## Join to get Deploy button [JOIN NOW](t.me/XBOT_SUPPORT)
 
 * **Other Method** 🔧
 
