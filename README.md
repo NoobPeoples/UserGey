@@ -39,7 +39,8 @@
 
 > Special Thanks to all of you !!!.
 
-## Features 😍
+<details>
+  <summary>Features 😍 </summary>
 
 * Powerful and Very Useful **built-in** Plugins
   * gdrive [ upload / download / etc ] ( Team Drives Supported! ) 🤥
@@ -57,6 +58,8 @@
 * Easy to Setup & Use
 * Easy to add / port Plugins
 * Easy to write modules with the modified client
+
+</details>
 
 ## Example Plugin 🤨
 
@@ -83,7 +86,8 @@ async def testing(message: Message):
 * Google Drive [API Keys](https://console.developers.google.com/)
 * MongoDB [Database URL](https://cloud.mongodb.com/)
 
-## How To Deploy 👷
+<details>
+  <summary> How To Deploy 👷 </summary>
 
 ```
 * **[HEROKU](https://www.heroku.com/) Method** 🔧
@@ -102,7 +106,11 @@ async def testing(message: Message):
 <p align="center">JOIN CHANNEL TO GET DEPLOY BUTTON</p>
 <p align="center"><a href="https://t.me/XBOT_SUPPORT">   <img src="https://img.shields.io/badge/Join%20Channel-!-red " /></a>
 </p>
-* **Other Method** 🔧
+
+</details>
+
+<details>
+  <summary> Other Method** 🔧 </summary>
 
   ```bash
   # clone the repo
@@ -125,6 +133,7 @@ async def testing(message: Message):
   # finally run the Userge ;)
   bash run
   ```
+</details>
 
 * **[More Detailed Guide](https://docs.google.com/document/d/15uoiOn2NkN518MMkx9h5UaMEWMp8aNZqJocXvS0uI6E)** 📝
 
