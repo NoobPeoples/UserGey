@@ -85,6 +85,7 @@ async def testing(message: Message):
 
 ## How To Deploy 👷
 
+```
 * **[HEROKU](https://www.heroku.com/) Method** 🔧
 
   > First click the button below. 
@@ -96,6 +97,7 @@ async def testing(message: Message):
   > After that copy the string session and past it in Config Vars (settings -> reveal config vars). 
 
   > Finally turn on the app and check the logs (settings -> view logs) :)
+```
 
 <p align="center">JOIN CHANNEL TO GET DEPLOY BUTTON</p>
 <p align="center"><a href="https://t.me/XBOT_SUPPORT">   <img src="https://img.shields.io/badge/Join%20Channel-!-red " /></a>
