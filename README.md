@@ -97,7 +97,8 @@ async def testing(message: Message):
 
   > Finally turn on the app and check the logs (settings -> view logs) :)
 
-## Join to get Deploy button [JOIN NOW](t.me/XBOT_SUPPORT)
+##
+Join to get Deploy button [JOIN NOW](t.me/XBOT_SUPPORT)
 
 * **Other Method** 🔧
 
