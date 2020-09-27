@@ -79,7 +79,7 @@ async def testing(message: Message):
    await CHANNEL.log("testing completed!")  # log to channel
 ```
 
-## Requirements 🥴
+## Requirements 
 
 * Python 3.8 or Higher 👻
 * Telegram [API Keys](https://my.telegram.org/apps)
