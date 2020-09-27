@@ -97,9 +97,8 @@ async def testing(message: Message):
 
   > Finally turn on the app and check the logs (settings -> view logs) :)
 
-## <p align="center">
-JOIN CHANNEL TO GET DEPLOY BUTTON
-<a href="https://t.me/XBOT_SUPPORT">   <img src="https://img.shields.io/badge/Join%20Channel-!-red " /></a>
+<p align="center">JOIN CHANNEL TO GET DEPLOY BUTTON</p><br>
+<p align="center"><a href="https://t.me/XBOT_SUPPORT">   <img src="https://img.shields.io/badge/Join%20Channel-!-red " /></a>
 </p>
 * **Other Method** 🔧
 
