@@ -103,8 +103,10 @@ async def testing(message: Message):
   > Finally turn on the app and check the logs (settings -> view logs) :)
 ```
 
-<p align="center">JOIN CHANNEL TO GET DEPLOY BUTTON</p>
-<p align="center"><a href="https://t.me/XBOT_SUPPORT">   <img src="https://img.shields.io/badge/JOIN%20CHANNEL-blueviolet?style=flat&logo" width="210" height="34.45" /></a>
+## <p align="center">Deploy to Heroku Methods</p>
+
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/X-Newbie/X-Userge/tree/alpha"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-success?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+
 <br>
 </p>
 
