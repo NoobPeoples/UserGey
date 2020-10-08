@@ -142,11 +142,6 @@ async def testing(message: Message):
 
 > TODO: add Docker Support.
 
-## Generate String Session
-Easy way to generate string session on Repl.it:
-
-<p align="center"><a href="https://GenUserGeString.usergeuserbot.repl.run"> <img src="https://telegra.ph/file/7193be9fb5f9caa50bae8.png" alt="Generate String Session" /></a></p>
-
 
 ### Video Tutorial 🎥
 
