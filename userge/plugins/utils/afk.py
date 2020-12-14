@@ -170,5 +170,5 @@ AFK_REASONS = (
     "#AFK\n Lu bener-bener ye!!",
     "#AFK\n Awas aja lu nanti tod!!",
     "#AFK\n Bajingan ni orang!!, \
-    and address and I will stalk you later. :P",
+    dan please diem dulu",
     "#AFK\n Gua Lagi Off asuu!!")
