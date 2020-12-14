@@ -20,7 +20,7 @@ LOGO_ID, LOGO_REF = None, None
     'header': "This command is just for fun"}, allow_channels=False)
 async def alive(message: Message):
     await message.delete()
-    output = f"""X-USERGE is running..\n
+    output = f"""UserGey is running..\n
 ▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n
 **⌚ uptime** : `{userge.uptime}`
 **🛠️ version** : `{get_version()}`
@@ -31,7 +31,7 @@ async def alive(message: Message):
     if Config.HEROKU_APP:
         output += f"\n┣[• **dyno-saver**: `{_parse_arg(Config.RUN_DYNO_SAVER)}`🔥"
     output += f"""
-┣[• **unofficial**: `{_parse_arg(Config.LOAD_UNOFFICIAL_PLUGINS)}🔥`
+┣[• **unofficial**: `{_parse_arg(Config.LOAD_UNOFFICIAL_PLUGINS)}🌿`
 ╰━━━━━━━━━━━━━━━━╯\n
   ⚙️**__Python__**: `{versions.__python_version__}`
   ⚙️**__Pyrogram__**: `{versions.__pyro_version__}`
