@@ -25,9 +25,9 @@ async def alive(message: Message):
 **⌚ uptime** : `{userge.uptime}`
 **🛠️ version** : `{get_version()}`
 \n╭━━━━━━━━━━━━━━━━╮
-┣[• **sudo**: `{_parse_arg(Config.SUDO_ENABLED)}`🔥
-┣[• **anti-spam**: `{_parse_arg(Config.ANTISPAM_SENTRY)}`🔥
-┣[• **dual-mode**: `{_parse_arg(RawClient.DUAL_MODE)}`🔥"""
+┣[• **sudo**: `{_parse_arg(Config.SUDO_ENABLED)}`🌿
+┣[• **anti-spam**: `{_parse_arg(Config.ANTISPAM_SENTRY)}`🌿
+┣[• **dual-mode**: `{_parse_arg(RawClient.DUAL_MODE)}`🌿"""
     if Config.HEROKU_APP:
         output += f"\n┣[• **dyno-saver**: `{_parse_arg(Config.RUN_DYNO_SAVER)}`🔥"
     output += f"""
