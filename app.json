@@ -1,16 +1,16 @@
 {
-    "name": "X-USERGE",
+    "name": "UserGey",
     "description": "telegram pluggable userbot",
-    "logo": "https://telegra.ph/file/990b684118df39e7e5716.jpg",
+    "logo": "https://telegra.ph/file/7fff6e4f2ea9593daa2c0.jpg",
     "keywords": [
         "userge",
         "telegram",
         "pluggable",
         "userbot"
     ],
-    "repository": "https://github.com/X-Newbie/X-Userge",
-    "website": "https://github.com/X-Newbie",
-    "success_url": "https://t.me/Xnewbie",
+    "repository": "https://github.com/NoobPeoples/UserGey",
+    "website": "https://github.com/NoobPeoples",
+    "success_url": "https://t.me/RxyMX",
     "env": {
         "BOT_TOKEN": {
             "description": "Get this from https://t.me/botfather if you like to use userge as a bot",
@@ -64,7 +64,7 @@
         },
         "UPSTREAM_REPO": {
             "description": "set this to your USERGE fork on GitHub",
-            "required": false
+            "required": true
         },
         "CMD_TRIGGER": {
             "description": "set command prefix",
