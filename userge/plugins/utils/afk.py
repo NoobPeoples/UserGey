@@ -51,8 +51,8 @@ async def active_afk(message: Message) -> None:
     TIME = time.time()
     REASON = message.input_str
     await asyncio.gather(
-        CHANNEL.log(f"#AFK\n Im Offline! : `{REASON}`"),
-        message.edit("`#AFK\n Im Offline!`", del_in=2),
+        CHANNEL.log(f"#AFK\n Saya Offline! : `{REASON}`"),
+        message.edit("`#AFK\n Saya Offline!`", del_in=5),
         AFK_COLLECTION.drop(),
         SAVED_SETTINGS.update_one(
             {'_id': 'AFK'}, {"$set": {'on': True, 'data': REASON, 'time': TIME}}, upsert=True))
@@ -126,7 +126,7 @@ async def handle_afk_outgoing(message: Message) -> None:
     global IS_AFK  # pylint: disable=global-statement
     IS_AFK = False
     afk_time = time_formatter(round(time.time() - TIME))
-    replied: Message = await message.reply("`Saya Kembali..!`", log=__name__)
+    replied: Message = await message.reply("`Saya Online Kembali!`", log=__name__)
     coro_list = []
     if USERS:
         p_msg = ''
@@ -164,11 +164,11 @@ async def handle_afk_outgoing(message: Message) -> None:
 
 
 AFK_REASONS = (
-    "#AFK\n Maaf Saya Sedang OFFLINE!!\n>>>>>",
-    "#AFK\n Maaf Saya Sedang OFFLINE!!\n<<<<<",
-    "#AFK\n Maaf Saya Sedang OFFLINE!!",
-    "#AFK\n Maaf Saya Sedang OFFLINE!!",
-    "#AFK\n Maaf Saya Sedang OFFLINE!!",
-    "#AFK\n Maaf Saya Sedang OFFLINE!!, \
+    "#AFK\n Gua lagi off asw!!\n>>>>>",
+    "#AFK\n Dibilang off ngeyel ae bangsat!!\n<<<<<",
+    "#AFK\n Diem anjing bacot amat!!",
+    "#AFK\n Lu bener-bener ye!!",
+    "#AFK\n Awas aja lu nanti tod!!",
+    "#AFK\n Bajingan ni orang!!, \
     and address and I will stalk you later. :P",
-    "#AFK\n Saya Sedang OFFLINE ANJENG!!")
+    "#AFK\n Gua Lagi Off asuu!!")
